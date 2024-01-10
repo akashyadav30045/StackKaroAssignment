@@ -1,0 +1,113 @@
+.content-new{
+    width: 1280px;
+    position: relative;
+    height: 685px;
+    top: 170px;
+    bottom: 80px;
+    left: 80px;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 25px;
+    }
+.content-left-heading-2{
+    width: 569px;
+    position: absolute;
+    height: 100px;
+    top: 30px;
+    left: 70px;
+    font-family: Outfit;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0A56F1;
+    } 
+.content-left-text-1{
+    position: absolute;
+    width: 675px;
+    height: 280px;
+    top: 110px;
+    left: 70px;
+    font-family: Outfit;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #36454F; 
+    }
+.heading{
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+width: 754px;
+height: 100px;
+top: 80px;
+left: 343px;
+font-family: Outfit;
+font-size: 40px;
+font-weight: 600;
+line-height: 50px;
+letter-spacing: 0em;
+text-align: center;
+color: #E68F50;
+}
+.buttons{
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+width: 552px;
+height: 28px;
+/* top: 960px; */
+left: 444px;
+font-family: Outfit;
+font-size: 22px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0.03em;
+text-align: center;
+color: black;
+}
+.service{
+margin-top: 2px;
+width: 240px;
+height: 45px;
+top: 1008px;
+left: 388px;
+border-radius: 25px;
+border: 2px solid #0A56F1;
+background-color: white;
+font-family: Outfit;
+color: #0A56F1;
+font-family: Outfit;
+font-size: 20px;
+text-align: center;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0.03em;
+text-align: left;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.services{
+    display: flex;
+    justify-content: space-evenly;
+}
+.buttons-end{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Outfit;
+font-size: 22px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0.03em;
+text-align: left;
+
+}

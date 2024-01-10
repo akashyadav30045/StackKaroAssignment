@@ -1,0 +1,131 @@
+
+.main{
+    width: 1000px;
+    height: 50px;
+    
+    right: 20px;
+    position: relative;
+    border-radius: 50px;
+    background: linear-gradient(270deg, rgba(230, 143, 80, 0.1) 0%, rgba(10, 86, 241, 0.1) 100%);
+    box-shadow: 0px 4px 10px 0px #65656540;
+}
+.About{
+    width: 88px;
+    height: 25px;
+    top: 65px;
+    left: 523px;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #36454F;
+        
+}
+.Work{
+    width: 52px;
+height: 25px;
+top: 65px;
+left: 682px;
+font-family: Outfit;
+font-size: 20px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #36454F;
+
+}
+.Services{
+    width: 81px;
+    height: 25px;
+    top: 65px;
+    left: 805px;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #36454F;
+        
+}
+.Clients{
+    width: 68px;
+height: 25px;
+top: 65px;
+left: 957px;
+font-family: Outfit;
+font-size: 20px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #36454F;
+
+}   
+.Team{
+    width: 53px;
+height: 25px;
+top: 65px;
+left: 1095px;
+font-family: Outfit;
+font-size: 20px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #36454F;
+
+}
+.Contact-Us{
+    width: 107px;
+height: 25px;
+top: 64px;
+left: 1219px;
+font-family: Outfit;
+font-size: 20px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #36454F;
+
+}
+.box{
+width: 50px;
+height: 50px;
+left: 50px;
+position: relative;
+}
+.circle{
+width: 90px;
+height: 40px;
+padding: 12px;
+margin: 2px;
+margin-left: 25px;
+border-radius: 50px;
+background: #FFFFFF;
+box-shadow: 0px 4px 10px 0px #65656559;
+position: relative;
+
+}
+.Home{
+    width: 106px;
+    height: 56px;
+    /* top: 1px; */
+    bottom: 5px;
+
+    left: 7px;
+    /* margin-bottom: 12px; */
+    position: relative;
+    
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #36454F; 
+}
