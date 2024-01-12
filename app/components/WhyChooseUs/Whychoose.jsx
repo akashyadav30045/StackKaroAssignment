@@ -39,7 +39,7 @@ const WhyChoose = () => {
           </div>
           <div className="Parent flex relative rounded-lg md:ml-[110px]">
             <div className="icon"><Image className="Images12" src={image5} alt="icon" /></div>
-            <div className="icon-text flex">On <div className="md:flex">Product Delivery</div></div>
+            <div className="icon-text md:flex ">On-Product <div className="md:flex">Delivery</div></div>
           </div>
         </div>
     </div>

@@ -12,10 +12,10 @@ const OurStory = () => {
       </div>
       <div className="services flex flex-wrap-reverse p-4">
           <span className="service rounded-lg  p-[2px]flex text-center">Website Developmen</span>
-          <span className="service rounded-lg flex text-center pl-[8px] relative">App Development</span>
+          <span className="service rounded-lg flex text-center">App Development</span>
           <span className="service rounded-lg">UI/UX Design</span>
           <span className="service rounded-lg">SEO Optimization</span>
-          <span className=" rounded-lg center pl-[12px] flex relative">Digital Marketing</span>
+          <span className=" rounded-lg center flex ">Digital Marketing</span>
       </div>
       <div className="buttons-end m-5">
         <span >showcasing our proficiency across various facets of the digital platform </span>

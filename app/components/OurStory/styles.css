@@ -38,6 +38,7 @@
         margin: 12px;
         display: flex;
         margin: auto;
+        padding-left: 12px;
         /* flex-grow: 1; */
         align-self: center;
         font-family: Outfit;
@@ -221,7 +222,7 @@ letter-spacing: 0.03em;
 text-align: center;
 color: black;
 }
-.service{
+.service,.center{
 margin-top: 2px;
 width: 240px;
 height: 45px;
@@ -262,10 +263,11 @@ letter-spacing: 0.03em;
 text-align: left;
 
 }
+
+}
 .image-8{
     position: relative;
     width: 549px;
     height: 550px;
     left: 760px;
     }
-}
