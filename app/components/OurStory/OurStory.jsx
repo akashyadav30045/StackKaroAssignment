@@ -6,16 +6,16 @@ import img from "./second.png"
 
 const OurStory = () => {
   return (
-    <div className="wrapper">
-      <div className="buttons m-5">
+    <div className="container">
+      <div className="buttons m-5 ">
         In the realm of digital solutions, we offer expertise in
       </div>
-      <div className="services">
-          <span className="service">Website Development</span>
-          <span className="service">App Development</span>
-          <span className="service">UI/UX Design</span>
-          <span className="service">Digital Marketing</span>
-          <span className="service">SEO Optimization</span>
+      <div className="services flex flex-wrap-reverse p-4">
+          <span className="service rounded-lg  p-[2px]flex text-center">Website Developmen</span>
+          <span className="service rounded-lg flex text-center pl-[8px] relative">App Development</span>
+          <span className="service rounded-lg">UI/UX Design</span>
+          <span className="service rounded-lg">SEO Optimization</span>
+          <span className=" rounded-lg center pl-[12px] flex relative">Digital Marketing</span>
       </div>
       <div className="buttons-end m-5">
         <span >showcasing our proficiency across various facets of the digital platform </span>
@@ -25,8 +25,8 @@ const OurStory = () => {
         <div>Launch Your Next Project with Stackkaroo</div>
       </div>
       <div className="content-new">
-        <div className="content-left flex flex-col">
-          <span className="content-left-heading-2"> Our Story</span>
+        <div className="content-left flex flex-col ">
+          <span className="content-left-heading-2 mx-auto"> Our Story</span>
           <div className='content-left-text-1 '>
               Guiding EISPL as Directors, Mr. Sourav Gupta and Mr. Chandan Mishra bring their extensive experience to the forefront as industry veterans.
                Our team is fueled by innovation, continually striving to exceed customer expectations.
@@ -40,7 +40,7 @@ const OurStory = () => {
           </div>
         </div>
         <div className="content-right">
-          <Image  className="image" src={Right} alt="Right-Image" />
+          <Image  className="image-8" src={Right} alt="Right-Image" />
         </div>
       </div>
     </div>

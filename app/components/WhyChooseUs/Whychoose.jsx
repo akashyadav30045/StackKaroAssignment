@@ -10,7 +10,7 @@ import image5 from "./5.png"
 
 const WhyChoose = () => {
   return (
-    <div className="wrapper">
+    <div className=" rounded-lg ">
         <div className="heading-2">
         Why Choose Us?
         </div>
@@ -18,28 +18,28 @@ const WhyChoose = () => {
             <span>We excel with reliability, innovation and customer-centric approach for our quality products.</span>
             <div> Our dedicated team ensures that the solutions provided are dependable and long-term</div>
         </div>
-        <div className="special-buttons flex   ">
-          <div className="Parent flex mr-9">
-            <div className="icon"><Image className="" src={icon} alt="icon" /></div>
-            <div className="icon-text">User-Centric <div>Approach</div></div>
+        <div className="special-buttons flex ">
+          <div className="Parent flex relative rounded-lg md:m-9 ">
+            <div className="icon"><Image className="Images12" src={icon} alt="icon" /></div>
+            <div className="icon-text ">User-Centric <div className="ml-1">Approach</div></div>
           </div>
-          <div className="Parent flex mb-9 ml-[70px]">
-            <div className="icon"><Image className="w-[60px] h-[60px] l-[226px]" src={image2} alt="icon" /></div>
-            <div className="icon-text">Customer <div>Satisfaction</div></div>
+          <div className="Parent flex relative rounded-lg md:m-9 ">
+            <div className="icon"><Image className="Images12" src={image2} alt="icon" /></div>
+            <div className="icon-text">Customer <div className="ml-1">Satisfaction</div></div>
           </div>
-          <div className="Parent flex ml-[110px]">
-            <div className="icon"><Image className="w-[60px] h-[60px] l-[226px]" src={image3} alt="icon" /></div>
-            <div className="icon-text">Integrating  <div>Feedback</div></div>
+          <div className="Parent flex flex-row rounded-lg relative md:m-9">
+            <div className="icon"><Image className="Images12" src={image3} alt="icon" /></div>
+            <div className="icon-text">Integrating  <div className="ml-1">Feedback</div></div>
           </div>
         </div>
-        <div className="special-buttons flex">
-        <div className="Parent flex ml-[135px]">
-            <div className="icon"><Image className="w-[60px] h-[60px] l-[226px]" src={image4} alt="icon" /></div>
-            <div className="icon-text">High-Quality <div>Product</div></div>
+        <div className="special-buttons flex rounded-lg items-center md:ml-[135px]">
+        <div className="Parent flex relative">
+            <div className="icon"><Image className="Images12" src={image4} alt="icon" /></div>
+            <div className="icon-text">High-Quality <div className="ml-1">Product</div></div>
           </div>
-          <div className="Parent flex ml-[110px]">
-            <div className="icon"><Image className="w-[60px] h-[60px] l-[226px]" src={image5} alt="icon" /></div>
-            <div className="icon-text mb-6">On-Time <div>Product Delivery</div></div>
+          <div className="Parent flex relative rounded-lg md:ml-[110px]">
+            <div className="icon"><Image className="Images12" src={image5} alt="icon" /></div>
+            <div className="icon-text flex">On <div className="md:flex">Product Delivery</div></div>
           </div>
         </div>
     </div>

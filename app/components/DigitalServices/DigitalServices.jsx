@@ -12,7 +12,7 @@ import arrow from './arrow.png';
 
 const DigitalServices = () => {
   return (
-    <div className="wrapper">
+    <div className="wrapper-3 rounded-lg">
       <div className="heading-3 mt-14">
         Stackkaroo’s Digital Services
       </div>

@@ -15,15 +15,15 @@ const Talent = () => {
   return (
     <div className="wrapper-7">
         <div className="heading-7 mt-14 ">
-        Stackkaroo’s Talent Hiring & Job Placement Services
+          Stackkaroo’s Talent Hiring & Job Placement Services
         </div>
         <div className="Buttons-3 mt-6">
         We are a talent searching platform that redesigns how companies hire talents. It is a cost-effective solution for industries.
             <div> We also provide global job opportunities with good salaries, support, and professional development.</div>
       </div>
 
-      <div className="cards m-8 ml-2">
-        <div className="card-5">
+      <div className="cards md:m-8 md:ml-2 ">
+        <div className="card-5 md:mb-4">
           <div className="flex flex-col daddy1 ">
             <div className="photo-5 mr-3"><Image src={image1} alt="webdev" /></div>
             <div className="website-3 ">Unleashing Top Talent Globally </div>
@@ -44,34 +44,27 @@ const Talent = () => {
           </div>
           <span className='card-info-2 flex items-c'>We provide both, flexible full-time and part-time jobs</span>
         </div>
-
-    </div>
-    <div className="cards m-8 ml-2">
         <div className="card-5">
           <div className="flex flex-col daddy1 ">
             <div className="photo-5 mr-3"><Image src={image4} alt="webdev" /></div>
-            <div className="website-3 ">End-to-End Excellence </div>
+            <div className="website-3">End-to-End Excellence </div>
           </div>
           <span className='card-info-2 flex items-c'>In our hiring process, a job description is shared, matches are reviewed, interviews are conducted, and post-hiring support is provided by us.</span>
         </div>
         <div className="card-5">
           <div className="flex flex-col daddy1 ">
-            <div className="photo-5 mr-3"><Image src={image5} alt="webdev" /></div>
+            <div className="photo-5 md:mr-3"><Image src={image5} alt="webdev" /></div>
             <div className="website-3 ">Unleashing Top Talent Globally </div>
           </div>
           <span className='card-info-3 flex items-c'>The platform enables fast hiring without waiting for candidates to reply. We offer affordable alternatives to traditional recruitment methods and provides quality talent..</span>
         </div>
         <div className="card-5">
-          <div className="flex flex-col daddy1 ">
-            <div className="photo-5 mr-3"><Image src={image6} alt="webdev" /></div>
+            <div className="photo-5 md:m-3  relative"><Image src={image6} alt="webdev" /></div>
             <div className="website-3 ">Efficiency Redefined </div>
+            <span className='card-info-2 flex '>The contracts are good and satisfy both parties. We save time and money by providing remote onboarding and IT support.</span>
           </div>
-          <span className='card-info-2 flex '>The contracts are good and satisfy both parties. We save time and money by providing remote onboarding and IT support.</span>
+    </div>
         </div>
-        
-    </div>
-
-    </div>
   )
 }
 

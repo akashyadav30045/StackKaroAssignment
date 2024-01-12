@@ -1,3 +1,94 @@
+@media screen and (max-width: 600px) {
+.heading-2{
+width: 135px;
+height: 23px;
+top: 140px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+left: 158px;
+font-family: Outfit;
+font-size: 18px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(230, 143, 80, 1);
+
+    }
+.Buttons-2{
+    width: 343px;
+height: 64px;
+position: relative;
+top: 150px;
+left: 48px;
+font-family: Outfit;
+font-size: 13px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-align: center;
+color: rgba(54, 69, 79, 1);
+
+}
+.special-buttons{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    right: 7%;
+    /* right: 40px; */
+}
+.Parent{
+width: 343px;
+height: 50px;
+top: 160px;
+display: flex;
+margin: 5px;
+
+
+position: relative;
+border: Mixed solid rgba(255, 255, 255, 1);
+background: linear-gradient(270deg, rgba(255, 255, 255, 0.075) 0%, rgba(10, 86, 241, 0.075) 100%),
+linear-gradient(0deg, #FFFFFF, #FFFFFF);
+border: 2px solid rgba(255, 255, 255, 1);
+box-shadow: 0px 4px 10px 0px rgba(10, 86, 241, 0.25);
+
+}
+.icon{
+    position: relative;
+    margin: 10px;
+    width: 30px;
+    height: 25px;
+    border-radius: 100px;
+    position: absolute;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .icon-text{
+    width: 156px;
+    height: 18px;
+    top: 5px;
+    bottom: 0px;
+    left: 55px;
+    display: flex;
+    font-family: Outfit;
+    position: relative;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #0A56F1;
+    }
+}
+
+
+@media (min-width:768px) {
 .Buttons-2{
 font-family: Outfit;
 font-size: 22px;
@@ -36,12 +127,14 @@ justify-content: center;
 align-items: center;
 height: 100px;
 top: 20px;
+margin: 9;
 left: 196px;
 border-radius: 25px;
 border: 2px;
 box-shadow: 0px 4px 10px 0px #0A56F140;
 background: linear-gradient(270deg, rgba(255, 255, 255, 0.075) 0%, rgba(10, 86, 241, 0.075) 100%),
-linear-gradient(0deg, #FFFFFF, #FFFFFF);
+linear-gradient(0deg, #FFFFFF, #FFFFFF); 
+
 }
 .icon{
 position: relative;
@@ -55,10 +148,9 @@ justify-content: center;
 align-items: center;
 }
 .icon-text{
-
 width: 196px;
 height: 64px;
-top: 2305px;
+top: 50px;
 left: 306px;
 font-family: Outfit;
 font-size: 25px;
@@ -67,4 +159,11 @@ line-height: 32px;
 letter-spacing: 0.03em;
 text-align: center;
 color: #0A56F1;
+
+}
+.Images12{
+width:60px; 
+height:60px;
+left:226px;
+}
 }

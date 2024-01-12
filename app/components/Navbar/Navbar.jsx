@@ -6,7 +6,7 @@ import box from './box.png'
 
 const Navbar = () => {
   return (
-    <div className="wrapper bg-white flex justify-between p-5">
+    <div className="nav bg-white flex justify-between p-5 ">
       <div className="box">
           <Image src={box} alt='box'/>
         </div>
